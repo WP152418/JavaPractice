@@ -27,6 +27,7 @@ public class SnackTest {
  		
  		for(int i = 0; i  <  3; i++) 
  		System.out.println(snack[i].toString());
+ 		
  		System.out.println("총 구매 금액 : "+ String.format("%,d", ( snack[1].calcPrice() + snack[2].calcPrice() + snack[0].calcPrice())) + "원");
  	}
  }
